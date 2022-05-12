@@ -1,17 +1,51 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+     Favorites
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-searchbar animated></ion-searchbar>
+  
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://media.istockphoto.com/photos/coffee-with-cream-sauce-picture-id1151806789?k=6&m=1151806789&s=612x612&w=0&h=I9851YE1YqZKPs0Cv-R3dVCx8LTxYXD4QTPvHzOZ-kQ=">
+  </ion-thumbnail>
+  <ion-label>Iced Coffee</ion-label>
+  <ion-badge color="light">$7,50</ion-badge>
+</ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://www.renestance.com/wp-content/uploads/2019/06/latte-2319110_1920.jpg">
+  </ion-thumbnail>
+  <ion-label>Café Expresso</ion-label>
+  <ion-badge color="light">$3,00</ion-badge>
+</ion-item>
+
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://th.bing.com/th/id/R.faeff4116594aa219c65dbd4a8386ae5?rik=Rie2k5wWq08tgQ&riu=http%3a%2f%2frazaitaliana.com%2fwp-content%2fuploads%2f2019%2f08%2fcapuccino2.jpg&ehk=9uys26rHf3R4qFfumpolVDq9qIClVdmG%2fIHW9fcI6YM%3d&risl=&pid=ImgRaw&r=0">
+  </ion-thumbnail>
+  <ion-label>Capuccino</ion-label>
+  <ion-badge color="light">$6,50</ion-badge>
+</ion-item>
+
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://cdn-prod.medicalnewstoday.com/content/images/hero/292/292160/292160_1100.jpg">
+  </ion-thumbnail>
+  <ion-label>Detox Tea</ion-label>
+  <ion-badge color="light">$5,00</ion-badge>
+</ion-item>
+
+<ion-item>
+  <ion-thumbnail slot="start">
+    <img src="https://drhealthbenefits.com/wp-content/uploads/2018/12/c858183a-bubble-tea.jpg">
+  </ion-thumbnail>
+  <ion-label>Bubble Tea</ion-label>
+  <ion-badge color="light">$5,90</ion-badge>
+</ion-item>
 </ion-content>
